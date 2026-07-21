@@ -23,8 +23,9 @@ jobs:
 
       - name: Build APK
         run: |
-          cd AbbasMawkib_AndroidStudio/AbbasMawkib || cd AbbasMawkib_AndroidStudio || true
-          gradle assembleDebug
+          cd AbbasMawkib_AndroidStudio/AbbasMawkib
+          chmod +x ./gradlew
+          ./gradlew assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
@@ -32,4 +33,3 @@ jobs:
           name: app-debug
           path: |
             **/build/outputs/apk/debug/*.apk
-1:45 AM
