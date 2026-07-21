@@ -23,9 +23,10 @@ jobs:
 
       - name: Build APK
         run: |
-          cd AbbasMawkib_AndroidStudio/AbbasMawkib
-          chmod +x ./gradlew
-          ./gradlew assembleDebug
+          find . -name "gradlew" -exec chmod +x {} \;
+          GRADLE_DIR=$(dirname $(find . -name "gradlew" | head -n 1))
+          cd "$GRADLE_DIR"
+          ./gradlew assembleDebug --no-daemon
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
