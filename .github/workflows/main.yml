@@ -24,7 +24,7 @@ jobs:
       - name: Build APK
         run: |
           cd AbbasMawkib_AndroidStudio/AbbasMawkib
-          gradle assembleDebug
+          gradle assembleDebug --stacktrace
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
