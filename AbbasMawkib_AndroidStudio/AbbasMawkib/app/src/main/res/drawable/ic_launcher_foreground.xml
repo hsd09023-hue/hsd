@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- حلقة ذهبية خارجية -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="2.5"
+        android:pathData="M54,20 a34,34 0 1,0 0.1,0 Z" />
+
+    <!-- جسم القربة (الوعاء) -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="
+            M54,34
+            C46,34 41,40 41,47
+            C41,52 43,55 44,58
+            C40,63 37,70 37,76
+            C37,85 44,91 54,91
+            C64,91 71,85 71,76
+            C71,70 68,63 64,58
+            C65,55 67,52 67,47
+            C67,40 62,34 54,34
+            Z" />
+
+    <!-- عنق القربة -->
+    <path
+        android:fillColor="#5C0A0A"
+        android:pathData="M49,36 L59,36 L59,46 L49,46 Z" />
+
+    <!-- خط تفاصيل وسط القربة -->
+    <path
+        android:fillColor="#5C0A0A"
+        android:fillAlpha="0.55"
+        android:pathData="
+            M54,58
+            C49,58 45,62 45,67
+            C45,75 49,84 54,84
+            C59,84 63,75 63,67
+            C63,62 59,58 54,58
+            Z" />
+
+    <!-- هلال صغير أعلى القربة -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="
+            M54,14
+            C50,14 47,17.5 47,21.5
+            C47,25.5 50,29 54,29
+            C55.5,29 56.9,28.6 58,27.9
+            C55.6,27.1 53.8,24.7 53.8,21.9
+            C53.8,19.1 55.6,16.7 58,15.9
+            C56.9,15.2 55.5,14 54,14
+            Z" />
+</vector>

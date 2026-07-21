@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">موكب العباس كفيل زينب</string>
+    <string name="mawkib_name">موكب العباس كفيل زينب</string>
+    <string name="mawkib_location">العمود 212</string>
+    <string name="mawkib_maps_url">https://maps.app.goo.gl/e1vXpv8Jf7HMFts17</string>
+
+    <string name="tab_home">الرئيسية</string>
+    <string name="tab_feed">المنشورات</string>
+    <string name="tab_live">البث المباشر</string>
+
+    <string name="open_maps">فتح الموقع على الخريطة</string>
+    <string name="location_label">الموقع</string>
+
+    <string name="feed_title">منشورات الزوار والخدام</string>
+    <string name="new_post_hint">شاركنا صورة أو خبراً عن الموكب…</string>
+    <string name="publish">نشر</string>
+    <string name="like">إعجاب</string>
+    <string name="comment">تعليق</string>
+    <string name="comments">التعليقات</string>
+    <string name="add_comment_hint">أضف تعليقاً…</string>
+    <string name="send">إرسال</string>
+    <string name="delete_post">حذف المنشور (إشراف)</string>
+
+    <string name="live_title">أجواء الموكب مباشر</string>
+    <string name="add_live_link">إضافة رابط بث مباشر</string>
+    <string name="live_link_hint">رابط يوتيوب أو فيسبوك للبث المباشر</string>
+    <string name="live_title_hint">عنوان البث</string>
+    <string name="add">إضافة</string>
+    <string name="watch_live">مشاهدة البث</string>
+    <string name="no_live_streams">لا يوجد بث مباشر حالياً</string>
+</resources>
